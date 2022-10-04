@@ -1,6 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Poppins:ital,wght@0,500;0,700;0,800;1,300&family=Roboto:wght@400;700&display=swap");
+@import 
+url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Poppins:ital,wght@0,500;0,700;0,800;1,300&family=Roboto:wght@400;700&display=swap");
 
-:root {
+:root 
+{
   --color-primary: #7380ec;
   --color-danger: #ff7782;
   --color-success: #41f1b6;
@@ -22,7 +24,8 @@
 
   --box-shadow: 0 2rem 3rem var(--color-light);
 }
-* {
+* 
+{
   margin: 0;
   padding: 0;
   outline: 0;
@@ -30,11 +33,13 @@
   list-style: none;
   box-sizing: border-box;
 }
-* html {
+* html 
+{
   font-size: 14px;
 }
 
-body {
+body 
+{
   width: 100vw;
   height: 100vh;
   font-family: Poppins, sans-serif;
@@ -44,7 +49,8 @@ body {
   overflow-x: hidden;
 }
 
-.container {
+.container 
+{
   display: grid;
   width: 96%;
   margin: 0 auto;
@@ -52,7 +58,8 @@ body {
   grid-template-columns: 14rem auto 23rem;
 }
 
-a {
+a 
+{
   color: var(--color-dark);
 }
 
@@ -60,12 +67,14 @@ img {
   display: block;
   width: 100%;
 }
-h1 {
+h1 
+{
   font-weight: 800;
   font-size: 1.8rem;
 }
 
-h2 {
+h2 
+{
   font: 0.87rem;
 }
 
@@ -73,53 +82,64 @@ h4 {
   font-size: 0.8rem;
 }
 
-h5 {
+h5 
+{
   font-size: 0.77rem;
 }
 
-small {
+small 
+{
   font-size: 0.75rem;
 }
 
-.profile-photo {
+.profile-photo 
+{
   width: 2 8rem;
   height: 2.8rem;
   border-radius: 50%;
   overflow: hidden;
 }
 
-.text-muted {
+.text-muted 
+{
   color: var(--color-info-dark);
 }
 
-p {
+p 
+{
   color: var(--color-dark-variant);
 }
 
 b {
   color: var(--color-darck);
 }
-.primary {
+.primary 
+{
   color: var(--color-primary);
 }
 
-.danger {
+.danger 
+{
   color: var(--color-danger);
 }
 
-.success {
+.success 
+{
   color: var(--color-success);
 }
 
-.warning {
+.warning 
+{
   color: var(--color-warning);
 }
 
-aside {
+aside 
+{
   height: 100vh;
   /*background: gray;*/
 }
-aside .top {
+aside .top 
+{
   background: white;
   display: flex;
   align-items: center;
@@ -127,20 +147,24 @@ aside .top {
   margin-top: 1.4rem;
 }
 
-aside .logo img {
+aside .logo img 
+{
   width: 2rem;
   height: 2rem;
 }
-aside .logo {
+aside .logo 
+{
   display: flex;
   gap: 0.8rem;
 }
-aside .close {
+aside .close 
+{
   display: none;
 }
 /*=============SIDERBAR===========*/
 
-aside .sidebar {
+aside .sidebar 
+{
   background: white;
   display: flex;
   flex-direction: column;
@@ -148,10 +172,12 @@ aside .sidebar {
   position: relative;
   top: 3rem;
 }
-aside h3 {
+aside h3 
+{
   font-weight: 500;
 }
-aside .sidebar a {
+aside .sidebar a 
+{
   display: flex;
   color: var(--color-info-dark);
   margin-left: 2rem;
@@ -162,23 +188,28 @@ aside .sidebar a {
   transition: all 300ms ease;
 }
 
-aside .sidebar a span {
+aside .sidebar a span 
+{
   font-size: 1.6rem;
 }
 
-aside .sidebar a:last-child {
+aside .sidebar a:last-child 
+{
   position: absolute;
   bottom: 2rem;
   width: 100%;
 }
-aside .sidebar a.active {
+aside .sidebar a.active 
+{
   background: var(--color-light);
   color: var(--color-primary);
   margin-left: 0;
 }
 
-aside .sidebar a.active:before {
+aside .sidebar a.active:before 
+{
   content: "";
   width: 6px;
   height: 100%;
+  background: var(--color-primary);
 }
